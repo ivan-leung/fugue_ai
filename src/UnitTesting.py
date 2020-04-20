@@ -1,5 +1,5 @@
 import random, collections, sys, Query
-from constants import *
+#from constants import *
 
 class UnitTest:
     '''
