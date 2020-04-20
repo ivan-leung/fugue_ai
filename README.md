@@ -18,9 +18,11 @@ makes the final composition based on the transition tables provided by NoteData
 1. FeatureExtractor.py: extract voice-leading, interval, and pitch features
 
 ## Getting started
+This codebase runs on python 2.7.
+
+The only nonstandard library is music21. `pip install music21` to install.
+The output is streamed to MuseScore application. You would need to download the MuseScore app to output and view the resulting composistions at https://musescore.org
 To make 1 compositions using Fugue 1 to 10:
 - python BachFugue.py 1 1 10 
 - python NoteData.py
 - python script.py 1
-
-Note: you need to download music21 package and musescore to parse data and show composition
