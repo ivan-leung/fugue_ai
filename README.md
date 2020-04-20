@@ -19,8 +19,8 @@ makes the final composition based on the transition tables provided by NoteData
 
 ## Getting started
 To make 1 compositions using Fugue 1 to 10:
-python BachFugue.py 1 1 10 
-python NoteData.py
-python script.py 1
+- python BachFugue.py 1 1 10 
+- python NoteData.py
+- python script.py 1
 
 Note: you need to download music21 package and musescore to parse data and show composition
